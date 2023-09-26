@@ -1,0 +1,50 @@
+html,
+body {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.produto1 {
+    width: 12.6rem;
+    height: 30.3rem;
+    padding: 1rem;
+    margin: 30px;
+    border-radius: .7rem;
+    border: .1rem #c9c7c7 solid;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.titulo {
+    margin: 0 0 1rem 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    color: white;
+    padding: .3rem 2rem;
+    background-color: blue;
+    border: none;
+}
+.produto2 {
+    width: 12.6rem;
+    height: 30.3rem;
+    padding: 1rem;
+    margin: 30px;
+    border-radius: .7rem;
+    border: .1rem #c9c7c7 solid;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.produto3 {
+    width: 12.6rem;
+    height: 30.3rem;
+    padding: 1rem;
+    margin: 30px;
+    border-radius: .7rem;
+    border: .1rem #c9c7c7 solid;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
