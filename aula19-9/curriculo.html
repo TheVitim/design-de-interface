@@ -1,58 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo</title>
     <link rel="stylesheet" href="estilo.css">
-   <style>
-    .grid-container {
-    display: grid;
-    column-gap: 10px;
-    grid-template-columns: auto auto auto auto;
-    padding: 20px;
-    }
-    .grid-item {
-  padding: 20px;
-}
-   </style>
+    <style>
+        .grid-container {
+            display: flex;
+            column-gap: 1px;
+            grid-template-columns: auto auto auto auto;
+            padding: 5px;
+            justify-content: space-between;
+        }
 
-   
+        .grid-item {
+            padding: 2px;
+        }
+    </style>
+
+
 </head>
+
 <body>
     <div class="grid-container">
-    <div class="grid-item">  
-    <div class="produto1">
-        <h1 class="titulo">Banana</h1>
-        <div class="corpo">
-            <img style="width: 200px;" src="bananaimg.avif" alt="foto.avif" class="imagem">
-            <p>Fruta.</p>
-        </div>
-        <footer class="rodape">
-            <a href="detalhes.html">Detalhes</a>
-            <button>1,64 USD</button>
-            
-        </footer>
-    
-    </div>
-    </div>
-    <div class="grid-item">  
-        <div class="produto1">
-            <h1 class="titulo">Água Mineral</h1>
-            <div class="corpo">
-                <img style="width: 170px;" src="garrafadeagua.avif" alt="foto.avif" class="imagem">
-                <p>Garrafa de água mineral</p>
+        <div class="grid-item">
+            <div class="produto">
+                <h1 class="titulo">Banana</h1>
+                <div class="corpo">
+                    <img style="width: 200px;" src="bananaimg.avif" alt="foto.avif" class="imagem">
+                    <p>Fruta.</p>
+                </div>
+                <footer class="rodape">
+                    <a href="detalhes.html">Detalhes</a>
+                    <button>1,64 USD</button>
+
+                </footer>
+
             </div>
-            <footer class="rodape">
-                <a href="detalhes.html">Detalhes</a>
-                <button>0,76 USD</button>
-                
-            </footer>
-        
         </div>
+        <div class="grid-item">
+            <div class="produto">
+                <h1 class="titulo">Água Mineral</h1>
+                <div class="corpo">
+                    <img style="width: 170px;" src="garrafadeagua.avif" alt="foto.avif" class="imagem">
+                    <p>Garrafa de água mineral</p>
+                </div>
+                <footer class="rodape">
+                    <a href="detalhes.html">Detalhes</a>
+                    <button>0,76 USD</button>
+
+                </footer>
+
+            </div>
         </div>
-        <div class="grid-item">  
-            <div class="produto1">
+        <div class="grid-item">
+            <div class="produto">
                 <h1 class="titulo">Carne</h1>
                 <div class="corpo">
                     <img style="width: 200px;" src="carne.avif" alt="foto.avif" class="imagem">
@@ -61,13 +65,13 @@
                 <footer class="rodape">
                     <a href="detalhes.html">Detalhes</a>
                     <button>18,99 USD</button>
-                    
+
                 </footer>
-            
+
             </div>
-            </div>
-        <div class="grid-item">  
-            <div class="produto1">
+        </div>
+        <div class="grid-item">
+            <div class="produto">
                 <h1 class="titulo">Energético</h1>
                 <div class="corpo">
                     <img style="width: 200px;" src="energetico.avif" alt="foto.avif" class="imagem">
@@ -76,16 +80,32 @@
                 <footer class="rodape">
                     <a href="detalhes.html">Detalhes</a>
                     <button>4,99 USD</button>
-                    
-                </footer>
-            
-            </div>
-            </div>
-    
-</div>
 
-    
-   
-    
+                </footer>
+
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="produto">
+                <h1 class="titulo">Banana</h1>
+                <div class="corpo">
+                    <img style="width: 200px;" src="bananaimg.avif" alt="foto.avif" class="imagem">
+                    <p>Fruta.</p>
+                </div>
+                <footer class="rodape">
+                    <a href="detalhes.html">Detalhes</a>
+                    <button>1,64 USD</button>
+
+                </footer>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
 </body>
+
 </html>
