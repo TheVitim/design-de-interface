@@ -43,11 +43,13 @@ body {
      border: none;
      border-radius: 5px;
      cursor: pointer;
+     margin-top: 15px;
  }
  
  #imc-resultados {
-     margin-top: 10px;
+     margin-top: 20px;
      text-align: center;
      font-weight: bold;
      font-size: 18px;
+    
  }
